@@ -1,12 +1,8 @@
 #include <iostream>
 int main()
 {
-    double students = (int)15.6;
-    // students = students - 100;
-    // students = students * 2;
-    // students *= 2
-    // students = students / 2;
-    // students /= 2;
-    std::cout
-        << students;
+    int correct = 9;
+    int questions = 15;
+    int score = correct / (double)questions * 100;
+    std::cout << score << "%";
 }
