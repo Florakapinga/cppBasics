@@ -5,6 +5,7 @@ int main()
     // students = students - 100;
     // students = students * 2;
     // students *= 2
-    students = students / 2;
+    // students = students / 2;
+    students /= 2;
     std::cout << students;
 }
